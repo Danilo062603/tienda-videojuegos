@@ -50,5 +50,6 @@ index.html
 Interfaz inspirada en dashboards modernos de videojuegos 🎮
 
 ---
+## Autor 
+Esteban paez castrillon
 
-Desarrollado con ❤️ para práctica de frontend
