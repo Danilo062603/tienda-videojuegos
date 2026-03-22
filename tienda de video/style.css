@@ -1,0 +1,108 @@
+/* RESET */
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+/* BASE */
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #0f172a, #1e293b);
+    color: white;
+}
+
+/* HEADER */
+header {
+    background: linear-gradient(90deg, #7c3aed, #06b6d4);
+    padding: 20px;
+    text-align: center;
+    border-bottom: 3px solid #22c55e;
+}
+
+/* LAYOUT */
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+    padding: 20px;
+}
+
+/* FORMULARIO */
+#formulario {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #000;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+input, textarea {
+    padding: 8px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    background: #22c55e;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    color: black;
+    font-weight: bold;
+}
+
+button:hover {
+    background: #16a34a;
+}
+
+/* LISTA */
+#citas {
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+}
+
+.cita {
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+}
+
+/* Estados */
+.pendiente {
+    border-left: 5px solid #facc15;
+}
+
+.atendida {
+    border-left: 5px solid #22c55e;
+}
+
+/* SERVICIOS */
+#servicios {
+    grid-column: span 2;
+    background: #1e293b;
+    padding: 15px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#servicios article {
+    background: #334155;
+    padding: 10px;
+    border-radius: 8px;
+}
+
+/* FOOTER */
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #020617;
+}
